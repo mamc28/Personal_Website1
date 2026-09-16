@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-label="LinkedIn logo">
+  <rect x="1" y="1" width="22" height="22" rx="3" fill="#0a66c2"/>
+  <circle cx="7" cy="7" r="1.5" fill="#fff"/>
+  <path d="M5.5 10h3v8.5h-3zM10.5 10h2.9v1.15h.05c.4-.75 1.4-1.55 2.9-1.55 3.1 0 3.65 2.05 3.65 4.7v4.2h-3v-3.72c0-.89-.02-2.03-1.25-2.03-1.25 0-1.44.97-1.44 1.97v3.78h-3z" fill="#fff"/>
+</svg>

@@ -1,0 +1,106 @@
+
+1) GPT Luna 5.6 (inside vscode copilot)
+
+2) Prompt: Can you give ma a barebones html skeleton just for my resume page?
+
+3) Relevant Code:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Resume | Max McEvoy</title>
+	<link rel="stylesheet" href="../Resources/css/styles.css">
+</head>
+<body>
+	<header>
+		<h1>Max McEvoy</h1>
+
+		<nav aria-label="Main navigation">
+			<a href="home.html">Home</a>
+			<a href="hobbies.html">Hobbies</a>
+			<a href="projects.html">Projects</a>
+			<a href="resume.html" aria-current="page">Resume</a>
+		</nav>
+
+		<p>Email | Phone | GitHub | LinkedIn</p>
+	</header>
+
+	<main>
+		<section>
+			<h2>Education</h2>
+			<article>
+				<h3>University of Colorado, Boulder</h3>
+				<p>Major: Computer Science | Minor: Business</p>
+				<ul>
+					<li>Relevant coursework</li>
+					<li>Honors and awards</li>
+				</ul>
+			</article>
+		</section>
+
+		<section>
+			<h2>Experience</h2>
+			<article>
+				<h3>Company or Organization</h3>
+				<p>Role | Location | Dates</p>
+				<ul>
+					<li>Responsibility or accomplishment</li>
+					<li>Responsibility or accomplishment</li>
+				</ul>
+			</article>
+		</section>
+
+		<section>
+			<h2>Projects and Skill Development</h2>
+			<article>
+				<h3>Project or Course Name</h3>
+				<p>Date</p>
+				<p>Short project or course description.</p>
+			</article>
+		</section>
+
+		<section>
+			<h2>Technical Skills</h2>
+			<ul>
+				<li>Languages</li>
+				<li>Frameworks and tools</li>
+				<li>Data and cloud technologies</li>
+			</ul>
+		</section>
+
+		<section>
+			<h2>Certifications</h2>
+			<p>Certification name</p>
+		</section>
+
+		<section>
+			<h2>Activities</h2>
+			<p>Activity or organization</p>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2026 Max McEvoy</p>
+	</footer>
+</body>
+</html>
+
+4) The AI produced the content correcly (as best it could without my actual resume attached).
+   One thing that I have to change is that it made the entire webpage start from the left, rather than being centered
+   like the rest of the pages. I verified that the code worked by looking at the live functionality on the website.
+   <section>
+			<h2>Technical Skills</h2>
+			<ul>
+				<li>Languages</li>
+				<li>Frameworks and tools</li>
+				<li>Data and cloud technologies</li>
+			</ul>
+		</section>
+    I chose this segment (rather than just one line). This segment basically allows the Technical skills part of my
+    resume to be its own section with a heading ("Technical Skills") and include bullet notes on the specific skills
+    that I have.
+
+5) My revision: The structure itself isn't fully correct. All the content isn't centered and is starting from the left side.
+                Additionally, it made my nav bar at the top where in all the other pages, it is on the bottom.
+                So my revision is going to address both of those.
