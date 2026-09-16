@@ -69,8 +69,7 @@ h3 {
 
 .home-page main,
 .hobbies-page main,
-.projects-page main,
-.resume-page main {
+.projects-page main {
 	width: min(1100px, calc(100% - 32px));
 	margin: 0 auto;
 	box-sizing: border-box;
@@ -79,7 +78,6 @@ h3 {
 .home-page h1,
 .home-page h3,
 .hobbies-page h1,
-.hobbies-page > p,
 .projects-page h1 {
 	text-align: center;
 }
@@ -410,7 +408,7 @@ h3 {
 
 @media (max-width: 768px) and (max-height: 500px) {
 	body {
-		overflow-y: hidden;
+		overflow-y: auto;
 	}
 
 	.home-page .page-header {
