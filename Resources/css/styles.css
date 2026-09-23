@@ -206,7 +206,6 @@ h3 {
 
 .social-link {
 	position: absolute;
-	right: 20px;
 	top: 50%;
 	transform: translateY(-50%);
 	display: inline-flex;
@@ -220,6 +219,14 @@ h3 {
 	color: #fff;
 	text-decoration: none;
 	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+
+.linkedin-button{
+	right:20px;
+}
+
+.calendar-button{
+	right: 145px;
 }
 
 .social-link:hover,
